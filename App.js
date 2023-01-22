@@ -4,7 +4,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View>
-        <Text>Building an app mf</Text>
+        <Text>Building an app mf!!!!</Text>
       </View>
       <Text>YEsssssir</Text>
       <Button title="Tap my cute ass" />
