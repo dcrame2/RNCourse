@@ -4,7 +4,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View>
-        <Text>Building an app mf!!!!</Text>
+        <Text style={styles.para}>Building an app mf!!!!</Text>
       </View>
       <Text>YEsssssir</Text>
       <Button title="Tap my cute ass" />
@@ -24,6 +24,8 @@ const styles = StyleSheet.create({
   para: {
     textAlign: "center",
     fontSize: "50px",
-    color: "red",
+    padding: 16,
+    borderColor: "red",
+    borderWidth: 2,
   },
 });
